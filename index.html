@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#120b16">
+  <meta name="description" content="A little love story made especially for you.">
+  <title>Untuk Kamu ❤️</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@500;600;700&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="noise"></div>
+  <div class="floating-hearts" aria-hidden="true"></div>
+
+  <main>
+    <section class="hero section" id="home">
+      <div class="hero-glow"></div>
+      <div class="hero-content reveal">
+        <p class="eyebrow">A LITTLE SOMETHING FOR YOU</p>
+        <h1>Happy <span>birthday</span>,<br>Sayangg.</h1>
+        <p class="hero-subtitle">Aku punya sebuah cerita kecil yang ingin aku tunjukin. Jangan buru-buru yaa. ❤️</p>
+        <button class="primary-btn" id="startBtn">Buka ceritanya <span>♥</span></button>
+        <div class="scroll-hint">scroll perlahan ↓</div>
+      </div>
+    </section>
+
+    <section class="section intro" id="story">
+      <div class="section-inner narrow reveal">
+        <p class="eyebrow">CHAPTER 01</p>
+        <h2>Semuanya berawal dari <em>sebuah pertemuan.</em></h2>
+        <p class="body-copy">Entah gimana kita kok bisa ketemu yaa, tapi dari sekian banyak orang di dunia, aku beruntung bisa mengenal kamu.</p>
+        <div class="quote-card">
+          <span class="quote-mark">“</span>
+          <p>Aku mungkin tidak bisa mengulang waktu, tapi aku ingin membuat setiap waktu yang kita punya menjadi berarti.</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="section memories">
+      <div class="section-inner">
+        <div class="section-heading reveal">
+          <div>
+            <p class="eyebrow">CHAPTER 02</p>
+            <h2>Potongan kecil<br><em>tentang kita.</em></h2>
+          </div>
+          <p class="heading-note">Geser foto untuk melihat semuanya →</p>
+        </div>
+
+        <div class="memory-track" id="memoryTrack">
+          <article class="memory-card reveal">
+            <div class="photo-frame photo-one">
+              <img src="assets/WhatsApp Image 2026-10-06 at 03.33.53.jpeg" alt="Foto kenangan pertama">
+              <span class="photo-number">01</span>
+            </div>
+            <p class="memory-date">THE BEGINNING - 18 October 2025</p>
+            <h3>Hari yang sederhana</h3>
+            <p>Kamu inget ga pertemuan pertama kita. Itu hal kecil yang mungkin biasa aja, tapi menjadi salah satu kenangan yang paling aku suka.</p>
+          </article>
+
+          <article class="memory-card reveal">
+            <div class="photo-frame photo-two">
+              <img src="assets/WhatsApp Image 2026-10-06 at 03.59.26.jpeg" alt="Foto kenangan kedua">
+              <span class="photo-number">02</span>
+            </div>
+            <p class="memory-date">OUR JOURNEY - 14 February 2026</p>
+            <h3>Tawa sesorang yang aku suka</h3>
+            <p>Kalau ada satu suara yang tidak pernah bosan aku dengar, mungkin itu suara kamu saat tertawa.</p>
+          </article>
+
+          <article class="memory-card reveal">
+            <div class="photo-frame photo-three">
+              <img src="assets/WhatsApp Image 2026-10-06 at 04.12.35.jpeg" alt="Foto kenangan ketiga">
+              <span class="photo-number">03</span>
+            </div>
+            <p class="memory-date">STILL US ∞</p>
+            <h3>Each day</h3>
+            <p>Terima kasih karena tetap menjadi tempat pulang yang terasa hangat, bahkan di hari yang melelahkan. Walaupun aku sering kena marah".....</p>
+          </article>
+        </div>
+
+        <div class="dots" id="dots" aria-label="Navigasi kenangan"></div>
+      </div>
+    </section>
+
+    <section class="section timeline">
+      <div class="section-inner narrow">
+        <div class="section-heading reveal">
+          <div>
+            <p class="eyebrow">CHAPTER 03</p>
+            <h2>Our little <em>timeline.</em></h2>
+          </div>
+        </div>
+
+        <div class="timeline-list">
+          <div class="timeline-item reveal">
+            <div class="timeline-dot"></div>
+            <span>01 — FIRST CHAPTER</span>
+            <h3>Pertama kali bertemu</h3>
+            <p>Di titik ini, kita belum tahu kalau sebuah pertemuan kecil akan membawa kita sejauh ini.</p>
+          </div>
+          <div class="timeline-item reveal">
+            <div class="timeline-dot"></div>
+            <span>02 — MORE MEMORIES</span>
+            <h3>Mulai punya banyak cerita</h3>
+            <p>Dari obrolan random, candaan kecil, sampai momen yang hanya kita berdua yang mengerti.</p>
+          </div>
+          <div class="timeline-item reveal">
+            <div class="timeline-dot"></div>
+            <span>03 — RIGHT NOW</span>
+            <h3>Dan ceritanya belum selesai</h3>
+            <p>Masih banyak tempat, hari, foto, tawa, dan kenangan yang belum kita buat.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section letter-section">
+      <div class="section-inner narrow center">
+        <p class="eyebrow reveal">CHAPTER 04</p>
+        <h2 class="reveal">Ada surat kecil<br><em>untuk kamu.</em></h2>
+
+        <button class="envelope reveal" id="letterBtn" aria-label="Buka surat">
+          <div class="envelope-back"></div>
+          <div class="letter-paper">
+            <span>Untuk kamu ❤️</span>
+          </div>
+          <div class="envelope-flap"></div>
+          <div class="envelope-front"></div>
+          <span class="seal">♥</span>
+        </button>
+        <p class="tap-hint reveal">tap amplopnya</p>
+      </div>
+    </section>
+
+    <section class="section final-section" id="final">
+      <div class="final-photo-wrap reveal">
+        <img src="assets/WhatsApp Image 2026-10-06 at 04.28.54.jpeg" alt="Foto utama">
+      </div>
+      <div class="final-content reveal">
+        <p class="eyebrow">ONE LAST THING</p>
+        <h2>Kalau aku boleh<br>memilih lagi...</h2>
+        <p>aku tetap akan memilih <em>kamu.</em></p>
+        <div class="heart-line">♥ ♥ ♥</div>
+        <button class="ghost-btn" id="replayBtn">Ulangi cerita ↻</button>
+      </div>
+    </section>
+  </main>
+
+  <div class="letter-modal" id="letterModal" aria-hidden="true">
+    <div class="modal-backdrop"></div>
+    <article class="letter-modal-card">
+      <button class="close-modal" id="closeLetter" aria-label="Tutup">×</button>
+      <p class="eyebrow">A LETTER FOR YOU</p>
+      <h2>Dear, Ale. ❤️</h2>
+      <div class="letter-text">
+        <p>Happy Birthday, sayang ❤️. Hari ini adalah hari yang spesial, karena di hari ini seseorang yang sangat berarti dalam hidupku dilahirkan ke dunia.
+
+Aku mungkin tidak selalu pandai mengungkapkan perasaanku lewat kata-kata. Tapi aku ingin kamu tahu, sejak kamu hadir dalam hidupku, ada banyak hal yang berubah menjadi lebih indah.
+
+Terima kasih sudah menjadi bagian dari hari-hariku. Terima kasih untuk setiap tawa, cerita, perhatian, kesabaran, dan semua momen kecil yang mungkin terlihat sederhana, tapi sangat berarti buatku.
+
+Semoga di usia kamu yang baru ini, semua hal baik datang kepadamu. Semoga langkahmu selalu dimudahkan, impianmu satu per satu menjadi kenyataan, dan kamu selalu diberikan alasan untuk tersenyum.
+
+Kalau suatu hari nanti kamu merasa cape, semoga kamu ingat bahwa kamu tidak harus melewati semuanya sendirian. Aku ingin tetap menjadi seseorang yang bisa kamu cari, tempat kamu bercerita, dan tempat kamu pulang.
+
+Aku tidak tahu bagaimana perjalanan kita ke depannya. Akan ada banyak hal yang mungkin berubah, banyak hari yang akan kita lewati, dan mungkin tidak semuanya akan selalu mudah.
+
+Tapi kalau aku masih diberi kesempatan untuk memilih...
+
+aku akan tetap memilih kamu.
+
+Aku ingin melihat lebih banyak senyummu.
+Mendengar lebih banyak ceritamu.
+Membuat lebih banyak kenangan bersamamu.
+
+Jadi, sekali lagi...
+
+Selamat ulang tahun, cintaku. 🎂❤️
+
+Semoga kamu selalu bahagia, selalu sehat, dan selalu menjadi dirimu sendiri.
+
+Terima kasih sudah lahir ke dunia.
+
+Dan terima kasih karena sudah hadir di duniaku.</p>
+        <p class="signature">With all my heart,<br><strong>Arsha</strong></p>
+      </div>
+    </article>
+  </div>
+
+  <div class="toast" id="toast">Cerita ini dibuat khusus untuk kamu ❤️</div>
+  <!-- ===== TAMBAHAN SOUNDTRACK ===== -->
+  <audio id="bgMusic" loop>
+    <source src="assets/Bryan Adams - Heaven (Classic Version).mp3" type="audio/mpeg">
+  </audio>
+  <!-- ===== END TAMBAHAN SOUNDTRACK ===== -->
+  <script src="script.js"></script>
+</body>
+</html>
